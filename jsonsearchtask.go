@@ -35,10 +35,16 @@ var managers = allManager{
 		Fname: "Shivangi",
 		Lname: "Varshney",
 	},
+	
 	{
 		ID:    "4",
 		Fname: "Harshit",
 		Lname: "Mohaan",
+	},
+	{
+		ID:    "5",
+		Fname: "Bushra",
+		Lname: "Khan",
 	},
 }
 
