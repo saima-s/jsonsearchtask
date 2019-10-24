@@ -49,6 +49,7 @@ var managers = allManager{
 }
 
 func homeLink(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "harshit best friend is milan")
 	fmt.Fprintf(w, "Welcome home!")
 }
 
