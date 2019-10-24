@@ -57,6 +57,7 @@ func createEvent(w http.ResponseWriter, r *http.Request) {
 	// Convert r.Body into a readable formart
 	reqBody, err := ioutil.ReadAll(r.Body)
 	if err != nil {
+		fmt.Fprintf("Enter the details")
 		fmt.Fprintf(w, "Kindly enter data with the manager id and full name")
 	}
 
