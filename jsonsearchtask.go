@@ -132,6 +132,7 @@ func main() {
 	router.HandleFunc("/createmanager", createEvent).Methods("POST")
 	router.HandleFunc("/managers", getAllManager).Methods("GET")
 	router.HandleFunc("/managers/{Fname}", getOneEvent).Methods("GET")
+	fmt.Println("In the main function")
 
 	log.Fatal(http.ListenAndServe(":8043", router))
 }
