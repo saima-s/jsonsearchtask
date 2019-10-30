@@ -46,6 +46,11 @@ var managers = allManager{
 		Fname: "Bushra",
 		Lname: "Khan",
 	},
+	{
+		ID:    "6",
+		Fname: "Saima",
+		Lname: "Sultana",
+	},
 }
 
 func homeLink(w http.ResponseWriter, r *http.Request) {
